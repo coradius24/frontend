@@ -1,0 +1,214 @@
+.account-verify-modal {
+  max-width: 665px !important;
+  max-height: 95vh;
+}
+
+.account-verify-modal .modal-title {
+  padding-bottom: 15px;
+}
+
+.account-verify-modal .modal-title h3 {
+  font-size: 22px;
+}
+
+.account-verify-modal p {
+  color: var(--p-4, #3F403F);
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.footer-button {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.header-info {
+  border-radius: 10px;
+  border: 1px solid var(--p-0, #EAF0F5);
+  background: #F7F9FC;
+  padding: 12px;
+  margin: 20px 0;
+}
+
+.footer-button button {
+  padding: 15px 0;
+}
+
+.footer-button .btn:not(button[disabled]) {
+  border-color: var(--color-primary);
+  transition: all .3s;
+}
+
+.footer-button .btn:nth-child(2) {
+  background: #fff !important;
+  color: var(--color-primary);
+}
+
+.footer-button .btn:nth-child(2):hover:not(button[disabled]) {
+  background: var(--color-primary) !important;
+  color: #fff;
+  border-color: var(--color-primary);
+}
+
+.footer-button .btn:hover:not(button[disabled]) {
+  border-color: var(--color-primary);
+}
+
+.footer-button .btn:hover:not(button[disabled]) svg {
+  color: #fff;
+}
+
+.footer-button .btn[disabled] {
+  background: #f7f9fc;
+  color: #000;
+  border-color: var(--color-primary);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.address.flex {
+  flex-direction: column;
+}
+
+.photo-upload p {
+  color: var(--p-3, #181818);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.account-verify-modal .form-check-input {
+  margin-right: 15px;
+}
+
+.account-verify-modal .form-check-group {
+  margin: 20px 0;
+}
+
+.account-verify-modal .preview-img {
+  max-width: 300px;
+  border-radius: 8px;
+  margin: auto;
+  max-height: 600px;
+  object-fit: contain;
+}
+
+.upload-aria {
+  border-radius: 10px;
+  border: 1px dashed rgba(102, 105, 123, 0.50);
+  background: var(--neutral-1, #FFF);
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.upload-aria label {
+  opacity: 0.8;
+  color: var(--p-1, #19891C);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.instructions p {
+  color: var(--p-3, #181818);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.instructions ul {
+  color: var(--p-4, #3F403F);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.instructions ul li {
+  list-style: disc;
+  margin-bottom: 5px;
+}
+
+.verifying-documents {
+  text-align: center;
+}
+
+.verifying-documents h5 {
+  margin-top: 20px;
+  font-size: 24px;
+
+}
+
+.verifying-documents lottie-player {
+  margin: auto;
+}
+
+.verifying-documents p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.verifying-documents progress {
+  width: 100%;
+  max-width: 300px;
+}
+
+.verifying-documents progress {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 10px;
+  height: 10px;
+}
+
+.verifying-documents progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+}
+
+.verifying-documents progress::-webkit-progress-bar,
+.verifying-documents progress::-webkit-progress-value {
+  border-radius: 10px;
+}
+
+.verifying-documents progress::-moz-progress-bar {
+  border-radius: 10px;
+}
+
+.verifying-documents progress::-webkit-progress-value {
+  background: #19891C;
+}
+
+@media screen and (min-width: 480px) {
+  .address.flex {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .address.flex>div {
+    flex: 0 0 calc(50% - 10px);
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .account-verify-modal .modal-title h3 {
+    font-size: 24px;
+  }
+}

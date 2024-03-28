@@ -1,0 +1,110 @@
+.statics {
+  padding: 100px 0;
+}
+
+.statics .content.flex {
+  flex-direction: column;
+  align-items: center;
+}
+
+.statics .statics-counts {
+  text-align: center;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 20px 20px 80px 0px rgba(68, 111, 160, 0.10);
+}
+
+.statics .statics-counts p {
+  color: var(--color-primary);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 22px;
+  line-height: normal;
+  font-weight: 700;
+}
+
+.statics-counts.flex div:nth-child(1),
+.statics-counts.flex div:nth-child(2) {
+  border-bottom: 1px solid #EAF0F5;
+}
+
+.statics-counts.flex div:nth-child(even) {
+  border-left: 1px solid #EAF0F5;
+}
+
+.statics-counts.flex>div {
+  width: 50%;
+  padding: 35px 0;
+}
+
+.statics-counts.flex .count {
+  max-width: 323px;
+}
+
+.statics .statics-text {
+  margin-top: 40px;
+}
+
+.statics .statics-accordion-area .accordion__button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .statics .statics-text {
+    margin-top: 0;
+  }
+
+  .statics-counts.flex .count {
+    padding: 50px 0;
+  }
+
+  .statics .content.flex {
+    flex-direction: row;
+    gap: 4%;
+  }
+
+  .statics .content.flex>div {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .statics .content.flex {
+    justify-content: space-between;
+  }
+
+  .statics .statics-counts p {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .statics-counts.flex .count {
+    padding: 60px 0;
+  }
+
+  .statics .content.flex {
+    gap: 8%;
+  }
+
+  .statics .content.flex>div {
+    width: 46%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .statics-counts.flex .count {
+    padding: 75px 0;
+  }
+
+  .statics .content.flex {
+    gap: 6%;
+  }
+
+  .statics .content.flex>div {
+    width: 47%;
+  }
+}

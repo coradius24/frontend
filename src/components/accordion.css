@@ -1,0 +1,115 @@
+.accordion__button {
+  border-bottom: 1px solid #EAF0F5;
+}
+
+.accordion__button[aria-expanded="true"] {
+  border-color: var(--color-primary);
+}
+
+.accordion__button {
+  color: var(--color-secondary);
+  cursor: pointer;
+  padding: 11px 0 11px 0;
+  width: 100%;
+  text-align: left;
+  transition: color .3s ease-in-out;
+}
+
+.accordion__button[aria-expanded="true"],
+.accordion__button:hover {
+  color: var(--color-primary);
+}
+
+.accordion__button:before {
+  display: inline-block;
+  content: '';
+  height: 10px;
+  width: 10px;
+  margin-right: 12px;
+}
+
+[hidden] {
+  display: none;
+}
+
+.accordion__panel {
+  padding: 10px 0 10px 0;
+  animation: fadein 0.5s ease-in-out;
+  border-bottom: 1px solid #EAF0F5;
+}
+
+.accordion__item:last-of-type .accordion__panel {
+  border-bottom: 0;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.accordion__heading {
+  position: relative;
+}
+
+.accordion__button[aria-expanded="true"]::before {
+  content: url('data:image/svg+xml,<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15.0004" r="14" transform="rotate(-180 15 15.0004)" fill="%23FDFDFD" stroke="%2319891C"/><path fill-rule="evenodd" clip-rule="evenodd" d="M15.166 14.0086C15.442 14.0086 15.666 14.2383 15.666 14.5215L15.666 20.6425C15.666 20.9256 15.442 21.1554 15.166 21.1554C14.89 21.1554 14.666 20.9256 14.666 20.6425L14.666 14.5215C14.666 14.2383 14.89 14.0086 15.166 14.0086Z" fill="%2319891C"/><mask id="mask0_323_104" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="11" y="8" width="8" height="8"><path fill-rule="evenodd" clip-rule="evenodd" d="M19 15.0344L11.332 15.0344L11.332 8.58072L19 8.58073L19 15.0344Z" fill="white"/></mask><g mask="url(%23mask0_323_104)"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.5936 14.0086L15.1656 10.0563L12.7383 14.0086L17.5936 14.0086ZM15.1656 8.58038C15.3376 8.58038 15.497 8.67066 15.589 8.82044L18.923 14.2486C19.0203 14.4059 19.0256 14.6056 18.9376 14.7691C18.8496 14.9332 18.6823 15.0344 18.4996 15.0344L11.8316 15.0344C11.6496 15.0344 11.4823 14.9332 11.3943 14.7691C11.3056 14.6056 11.3116 14.4059 11.409 14.2486L14.743 8.82044C14.8343 8.67066 14.9943 8.58038 15.1656 8.58038Z" fill="%2319891C"/></g></svg>');
+  position: absolute;
+  right: 10px;
+  color: var(--color-primary);
+}
+
+.accordion__button[aria-expanded="false"]::before {
+  content: url('data:image/svg+xml,<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15.0004" r="14" fill="%23FDFDFD" stroke="%23AFB1C1"/><path fill-rule="evenodd" clip-rule="evenodd" d="M14.834 15.9922C14.558 15.9922 14.334 15.7624 14.334 15.4792V9.35827C14.334 9.07513 14.558 8.84534 14.834 8.84534C15.11 8.84534 15.334 9.07513 15.334 9.35827V15.4792C15.334 15.7624 15.11 15.9922 14.834 15.9922Z" fill="%23AFB1C1"/><mask id="mask0_323_118" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="11" y="14" width="8" height="8"><path fill-rule="evenodd" clip-rule="evenodd" d="M11 14.9663H18.668V21.42H11V14.9663Z" fill="white"/></mask><g mask="url(%23mask0_323_118)"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.4064 15.9922L14.8344 19.9445L17.2617 15.9922H12.4064ZM14.8344 21.4203C14.6624 21.4203 14.503 21.3301 14.411 21.1803L11.077 15.7521C10.9797 15.5948 10.9744 15.3951 11.0624 15.2317C11.1504 15.0675 11.3177 14.9663 11.5004 14.9663H18.1684C18.3504 14.9663 18.5177 15.0675 18.6057 15.2317C18.6944 15.3951 18.6884 15.5948 18.591 15.7521L15.257 21.1803C15.1657 21.3301 15.0057 21.4203 14.8344 21.4203Z" fill="%23AFB1C1"/></g></svg>');
+  position: absolute;
+  right: 10px;
+}
+
+.accordion__item:last-of-type .accordion__button[aria-expanded="false"] {
+  border: none;
+}
+
+.lecture.has-preview a {
+  color: initial;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.lecture.has-preview a:hover {
+  color: var(--color-primary);
+}
+
+span.lecture-count {
+  padding-left: 25px;
+  font-size: 12px;
+  font-family: Hind Siliguri;
+  color: #66697B;
+}
+
+span.lecture-count .number {
+  font-family: Manrope;
+  position: relative;
+}
+
+span.lecture-count ::before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  background: #848593;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(0, -50%);
+  left: -10px;
+}
+
+span.lecture-title.flex.align-center span:last-of-type {
+  max-width: calc(100% - 26px);
+}

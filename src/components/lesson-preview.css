@@ -1,0 +1,24 @@
+.lesson-preview .youtube-video,
+.lesson-preview .youtube-video>div,
+.lesson-preview iframe {
+  width: 100% !important;
+}
+
+.lesson-preview>div:first-of-type {
+  position: relative;
+}
+
+.lesson-preview>div:not(.upcoming-class, .youtube-video):first-of-type {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.lesson-preview>div:first-of-type iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

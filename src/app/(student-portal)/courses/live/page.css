@@ -1,0 +1,19 @@
+.main-courses {
+  margin-bottom: 50px;
+}
+
+.main-courses .content {
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .main-courses .content {
+    width: 70%;
+    padding: 60px 0;
+  }
+}
+
+.blog-container {
+  margin-top: 60px;
+}

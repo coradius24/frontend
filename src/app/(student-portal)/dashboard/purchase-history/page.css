@@ -1,0 +1,24 @@
+.purchase-history-break {
+  margin-bottom: 10px;
+}
+
+.purchase-history .button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-end;
+}
+
+.purchase-history .button-group .btn {
+  font-size: 12px;
+  width: 115px;
+  padding: 10px 0;
+}
+
+.purchase-history-action {
+  padding-right: 0;
+}
+
+.purchase-history .due {
+  color: #F32D02;
+}

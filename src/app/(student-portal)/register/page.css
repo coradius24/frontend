@@ -1,0 +1,125 @@
+.auth.rainbow-banner {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.auth .container {
+  background: #FFF;
+}
+
+.auth .error-message {
+  font-size: 14px;
+  font-weight: 500;
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.auth .content {
+  margin: 60px auto 30px auto;
+  padding: 30px 20px;
+  max-width: 400px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2.8048px 4.67467px 46.74672px -7.47948px rgba(0, 0, 0, 0.07);
+  position: relative;
+}
+
+.auth .logo.center img {
+  margin: 0 auto 15px auto;
+}
+
+.o-auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.o-auth .google {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.o-auth button {
+  border-radius: 10px;
+  background: #F7F9FC;
+  display: flex;
+  padding: 9px 10px;
+  align-items: center;
+  gap: 8px;
+  border: none;
+}
+
+.forget-pass-text {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+p.login-divider::before, p.login-divider::after {
+  height: 1px;
+  width: 30%;
+  content: "";
+  top: 50%;
+  display: block;
+  position: absolute;
+  /* background: #EAF0F5; */
+}
+
+p.login-divider {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+p.login-divider::before {
+  left: 0;
+
+}
+
+p.login-divider::after {
+  right: 0
+}
+
+p.register-text {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 990px) {
+  .auth .content h1 {
+    font-size: 26px;
+  }
+
+  .auth .content {
+    padding: 30px;
+    max-width: 100%;
+    justify-content: space-between;
+  }
+
+  .auth .content>div:first-of-type {
+    width: 55%;
+  }
+
+  .auth .content>div:last-of-type {
+    width: 45%;
+  }
+
+  .login-form {
+    padding: 30px;
+    max-width: 530px;
+    border-radius: 20px;
+    border: 1px solid #EAF0F5;
+    background: #FFF;
+  }
+
+  .login.rainbow-banner {
+    padding-bottom: 50px;
+  }
+}
+
+.sign-up-form {
+  margin-top: 15px;
+}

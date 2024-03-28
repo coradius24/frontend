@@ -1,0 +1,19 @@
+.feedback-bottom .flex {
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.feedback-bottom .flex>div:first-of-type {
+  border-radius: 10px;
+  border: 1px solid #B8DDB4;
+  background: #F3FCF2;
+  padding: 18px 17px;
+}
+
+.feedback-bottom .flex>div:first-of-type>p {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}

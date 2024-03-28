@@ -1,0 +1,179 @@
+.video-aria {
+  margin: 40px 0;
+  padding-bottom: 20px;
+}
+
+.video-aria .container {
+  position: relative;
+}
+
+.video-aria .content {
+  border-radius: 20px;
+  border: 1px solid #EAF0F5;
+  background: #FFF;
+  padding: 15px;
+}
+
+.video-aria .header.flex.align-center {
+  justify-content: space-between;
+}
+
+.video-aria .header.flex.align-center h1 {
+  color: var(--color-secondary);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.course-video-player {
+  padding-top: 20px;
+  border-top: 1px solid #EAF0F5;
+}
+
+.player-aria>div {
+  max-width: 100%;
+}
+
+.player-aria iframe {
+  border: none;
+  width: 100%;
+}
+
+.course-video-player {
+  flex-direction: column;
+}
+
+.course-video-player>div {
+  width: 100%;
+}
+
+.video-aria .back-button {
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  background-color: #FFF;
+  border-radius: 50%;
+  border: 1px solid #EAF0F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  top: 30px;
+  position: absolute;
+  left: 0;
+}
+
+
+.player-aria>div:first-of-type {
+  position: relative;
+}
+
+.player-aria>div:not(.upcoming-class, .youtube-video):first-of-type {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.player-aria>div:first-of-type iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 990px) {
+  .player-aria>div:not(.upcoming-class):first-of-type {
+    min-height: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .course-video-player {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .course-video-player>div.player-aria {
+    width: 60%;
+  }
+
+  .course-video-player>div.module {
+    width: calc(100% - 60% - 30px);
+  }
+}
+
+.youtube-video,
+.youtube-video>div {
+  width: 100% !important;
+}
+
+.course-video-buttons {
+  gap: 20px;
+  margin: 22px 0;
+}
+
+.course-video-buttons button {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.course-video-buttons button.btn.previous {
+  border-radius: 100px;
+  border: 1px solid #EAF0F5;
+  background: #F7F9FC;
+  color: var(--color-secondary);
+}
+
+.course-video-buttons button.btn.previous svg {
+  color: var(--color-secondary);
+}
+
+.course-video-buttons button.next {
+  color: #fff;
+}
+
+.video-play-course-module .module .lecture-list .lecture.has-preview:hover {
+  border-color: var(--color-primary);
+}
+
+.video-play-course-module .module .lecture-list .lecture.has-preview:hover a {
+  color: var(--color-primary);
+}
+
+.video-summary>p {
+  color: var(--color-secondary);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #EAF0F5;
+}
+
+.video-summary-content {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #EAF0F5;
+  background: #F7F9FC;
+  padding: 15px;
+  max-height: 240px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.video-summary-content p {
+  margin: 0;
+}
+
+.player-aria>div.youtube-video {
+  padding-bottom: 0;
+}
+
+.player-aria .upcoming-class {
+  padding: 50px;
+}

@@ -1,0 +1,140 @@
+.section-courses-content:not(.section-courses-recorded > div) {
+  margin-top: 100px;
+}
+
+.section-courses-content .courses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.section-courses-content .courses-card {
+  margin-top: 50px;
+  display: flex;
+  padding: 8px;
+  box-shadow: 2.8048px 4.67467px 46.74672px -7.47948px rgba(0, 0, 0, 0.07);
+}
+
+.courses-card.with-description {
+  align-items: flex-start;
+
+}
+
+.section-courses-content .image-overlay .overlay-badge {
+  top: 20px;
+  left: 0;
+  width: 123px;
+  height: 38px;
+  position: relative;
+
+}
+
+.section-courses-content .image-overlay .overlay-profile-name,
+.section-courses-content .image-overlay .overlay-profile-position {
+  margin: 0 14px;
+  color: var(--color-secondary);
+}
+
+.section-courses-content .image-overlay .overlay-profile-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.section-courses-content .image-overlay .overlay-profile-position {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+
+.section-courses-content .courses-card-header {
+  border-bottom: 1px solid #ECECEC;
+  padding-bottom: 34px;
+}
+
+.section-courses-content .courses-card-items .courses-card {
+  padding: 6px;
+}
+
+.section-courses-content .corses-card-items-vertical .courses-card {
+  width: calc(25% - 25px);
+}
+
+.section-courses-content .corses-card-items-vertical.courses-card-items_slider .courses-card {
+  width: 100%
+}
+
+.section-courses-content .corses-card-items-horizontal .courses-card {
+  width: calc(50% - 25px);
+}
+
+.section-courses-content .courses-card-vertical {
+  flex-direction: column;
+}
+
+.section-courses-content .courses-card-horizontal {
+  flex-direction: row;
+}
+.skeleton-courses-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px 30px;
+  
+}
+.recorded .skeleton-courses-grid{
+  padding-bottom: 80px;
+
+}
+.skeleton-courses-grid > div:not(:first-child) {
+  display: none;
+}
+
+@media screen and (min-width: 700px) and (max-width: 990px) {
+  .skeleton-courses-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 25px;
+    
+  }
+  .skeleton-courses-grid > div:not(:first-child) {
+    display: block;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+  
+  .section-courses-content .corses-card-items-vertical .courses-card {
+    width: 33.33%;
+    max-width: 33.33%;
+  }
+  .skeleton-courses-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 25px;
+    
+  }
+  .skeleton-courses-grid > div:not(:first-child) {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-courses-content .corses-card-items-vertical .courses-card {
+    width: calc(25% - 25px);
+    max-width: 25%;
+  }
+  .skeleton-courses-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px 25px;
+    
+  }
+  .skeleton-courses-grid > div:not(:first-child) {
+    display: block;
+  }
+  .skeleton-featured-courses-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+}

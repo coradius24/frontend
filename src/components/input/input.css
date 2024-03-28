@@ -1,0 +1,92 @@
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #EAF0F5;
+  background: #FFF;
+  border-radius: 10px;
+}
+
+.helper-text {
+  font-size: 12px;
+  margin-top: 0;
+  color: rgba(222, 5, 5, 0.755);
+}
+
+.error.helper-text {
+  color: red;
+  padding-top: 5px;
+}
+
+.input-group.error {
+  border: 1px solid rgba(222, 5, 5, 0.755);
+}
+
+.form-group .input-group span svg {
+  color: #66697B;
+}
+
+.form-group .input-group span {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  margin: auto auto;
+  height: 100%;
+  padding-left: 15px;
+}
+
+.input-group>input {
+  padding: 12px 5px;
+  border-radius: 10px;
+  color: #66697B;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  padding-left: 45px;
+}
+
+.form-group label {
+  display: inline-block;
+  padding-bottom: 5px;
+  color: var(--color-secondary);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.input-group>.form-control, .input-group>.form-select {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+}
+
+@media screen and (min-width: 990px) {
+  .form-group .input-group span {
+    padding-left: 20px;
+  }
+
+  .input-group>input {
+    padding-left: 50px;
+  }
+}
+
+.input-group.no-icon>input {
+  padding-left: 15px;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 5px 10px;
+  border-color: #EAF0F5;
+}

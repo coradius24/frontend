@@ -1,0 +1,39 @@
+.forget-password-header {
+  min-height: 600px;
+  z-index: -1;
+}
+
+section.forget-password {
+  margin: -520px 0 0 0;
+  z-index: 1;
+}
+
+section.forget-password .change-password {
+  border-radius: 20px;
+  border: 1px solid #EAF0F5;
+  background: #FFF;
+  padding: 75px 0;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+@media screen and (min-width: 990px) {
+  section.forget-password {
+    margin-bottom: 50px;
+  }
+
+  section.forget-password .content {
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  section.forget-password .content p {
+    margin-bottom: 20px;
+  }
+
+  section.forget-password .content h1 {
+    font-size: 32px;
+  }
+}

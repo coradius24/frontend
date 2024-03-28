@@ -1,0 +1,150 @@
+.section-free-class {
+  padding: 100px 0;
+}
+
+.section-free-class .content {
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid #EAF0F5;
+  border-top: 0;
+  background: #FFF;
+  box-shadow: 2.8048px 4.67467px 46.74672px -7.47948px rgba(0, 0, 0, 0.07);
+}
+
+.section-free-class .content form,
+.section-free-class .content .header {
+  padding: 25px;
+}
+
+.section-free-class .content form {
+  padding-top: 15px;
+}
+.text-red{
+  color: #FF0F00 !important;
+}
+
+
+.free-class-registered {
+  text-align: center;
+  padding: 60px 35px;
+}
+.free-class-registered h4{
+  font-size: 22px;
+}
+.section-free-class .content .header {
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid #EAF0F5;
+  background: #F7F9FC;
+}
+
+.section-free-class .content h2 {
+  font-size: 18px;
+  color: var(--color-primary);
+}
+
+.section-free-class .header {
+  margin-bottom: 20px;
+}
+
+.form-group.free-class-comment textarea {
+  width: 100%;
+  padding: 5px 10px;
+  border-color: #EAF0F5;
+}
+
+.form-group.free-class-comment textarea:focus,
+.form-group.free-class-comment textarea:focus-visible {
+  outline-color: var(--color-primary);
+}
+
+.section-free-class .container {
+  position: relative;
+}
+
+.free-class.rainbow-banner .container {
+  position: relative;
+}
+
+.free-class.rainbow-banner .banner {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: none;
+}
+
+.free-class.rainbow-banner .right-banner {
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+@media screen and (min-width: 990px) {
+  .section-free-class .content h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-free-class .content h2 {
+    font-size: 26px;
+  }
+
+  .section-free-class .content {
+    max-width: 676px;
+    margin: 0 auto;
+  }
+
+  section.free-class.rainbow-banner p {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  section.free-class.rainbow-banner .content {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .free-class.rainbow-banner .banner {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .free-class.rainbow-banner .banner {
+    width: 230px;
+  }
+
+  .free-class.rainbow-banner .left-banner {
+    transform: translate(-10%, -50%);
+  }
+
+  .free-class.rainbow-banner .right-banner {
+    transform: translate(-10%, -50%);
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .free-class.rainbow-banner .left-banner {
+    transform: translate(-15%, -50%);
+  }
+
+  .free-class.rainbow-banner .right-banner {
+    right: 0;
+    transform: translate(15%, -50%);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .free-class.rainbow-banner .left-banner {
+    transform: translate(-25%, -50%);
+  }
+
+  .free-class.rainbow-banner .right-banner {
+    right: 0;
+    transform: translate(25%, -50%);
+  }
+}

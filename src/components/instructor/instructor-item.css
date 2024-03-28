@@ -1,0 +1,87 @@
+.mentor-image-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.mentor-image-card img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  background: #F5F5F5;
+
+}
+
+.mentor-info-container,
+.mentor-info-bar {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.mentor-info-container {
+  overflow: hidden;
+}
+
+.mentor-info {
+  background: #fff;
+  border-radius: 10px 10px 0px 0px;
+  padding: 6px 16px 16px;
+  position: relative;
+  width: 100%;
+  bottom: -25px;
+  transition: all 0.3s;
+  color: #1E2A39;
+}
+
+.mentor-image-card:hover .mentor-info {
+  bottom: 0;
+  background: #19891C;
+  color: #fff;
+}
+
+.mentor-info-bar {
+  height: 2.932px;
+  background: #19891C;
+  box-shadow: 10px 20px 50px 0px rgba(15, 15, 15, 0.10);
+  z-index: 2;
+}
+
+.mentor-name,
+.mentor-position {
+  font-family: Poppins;
+  margin-top: 0;
+}
+
+.mentor-name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  padding-top: 5px;
+}
+
+.mentor-position {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.mentor-info .social-links {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+  gap: 8px;
+}
+
+.mentor-info .social-links a {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.20);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

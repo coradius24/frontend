@@ -1,0 +1,41 @@
+.active.side-nav-item ul.side-nav-second-level a.active,
+.mb-3.active.side-nav-item.dropdown .side-nav-second-level a:hover {
+  color: #19891c;
+  background-color: transparent;
+}
+
+.active.side-nav-item ul.side-nav-second-level {
+  padding-left: 25px;
+}
+
+.active.side-nav-item ul.side-nav-second-level a {
+  border-radius: inherit;
+}
+
+.active.side-nav-item ul.side-nav-second-level a {
+  background: transparent;
+  color: #000;
+}
+
+ul.side-nav-second-level a span svg path {
+  fill: #000 !important;
+}
+
+.login-user-nav div.bag-icon {
+  margin: 0 10px 0 0;
+}
+
+.login-user-nav.flex.align-items-center {
+  gap: 0;
+}
+
+@media screen and (max-width: 370px) {
+  .login-user-nav.flex.align-items-center {
+    padding: 0;
+    gap: 0;
+  }
+}
+
+.login-user-nav.flex.align-items-center>div:last-of-type div {
+  margin: 0 !important;
+}

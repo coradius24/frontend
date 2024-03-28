@@ -1,0 +1,138 @@
+.ReactModal__Overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+  background-color: rgba(24, 24, 24, 0.50) !important;
+}
+
+.modal-title {
+  border-bottom: 1px solid #EAF0F5;
+  padding-bottom: 18px;
+}
+
+
+.ReactModal__Content {
+  width: 100%;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  overflow: auto;
+  background: rgba(24, 24, 24, 0.50);
+  border-radius: 20px !important;
+  border: none !important;
+  max-width: 100%;
+  padding: 30px !important;
+  position: absolute;
+  inset: 50% auto auto 50%;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 0px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@media screen and (min-width: 480px) {
+  .ReactModal__Content {
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ReactModal__Content {
+    max-width: 550px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .ReactModal__Content {
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ReactModal__Content {
+    max-width: 750px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .ReactModal__Content {
+    max-width: 1100px;
+  }
+}
+
+button.close.modal_close {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #F2FCF3;
+  border: 1px solid #19891C;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 2;
+}
+
+button.close.modal_close span {
+  display: flex;
+  color: var(--color-primary);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  padding: 90px;
+}
+
+.modal-content.center h3 {
+  font-size: 22px;
+  color: var(--color-secondary);
+  margin-top: 20px;
+}
+
+.modal-content.center {
+  padding: 60px 25px;
+}
+
+.modal-content.center button {
+  margin: 30px auto auto auto;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-content.center h3 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .modal-content.center h3 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-title h3 {
+    font-size: 26px;
+  }
+
+  .modal-content.center h3 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .modal-content.center h3 {
+    font-size: 48px;
+  }
+}
+
+.modal-small {
+  max-width: 665px;
+}

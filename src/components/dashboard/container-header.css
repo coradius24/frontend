@@ -1,0 +1,53 @@
+.enroll-course button.btn.certificate-download {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.header.flex.align-center>div.flex {
+  border-radius: 6px;
+  background: #F7F9FC;
+  padding: 15px 10px;
+}
+
+
+.header.flex.align-center>div.flex p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+button.btn.certificate-download {
+  /* cursor: not-allowed; */
+  border-radius: 93.255px;
+  border: 1.5px solid var(--p-1, #19891C);
+  background: #F2FCF3;
+  color: var(--color-primary);
+}
+
+@media screen and (min-width: 1200px) {
+  .enroll-course button.btn.certificate-download {
+    flex: 1;
+    max-width: 112px;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .header.flex.align-center>div {
+    max-width: 50%;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header.flex.align-center>div.flex p {
+    max-width: 69%;
+  }
+
+  .enroll-course button.btn.certificate-download {
+    margin-top: 0;
+  }
+
+  .header.flex.align-center>div.flex {
+    padding: 10px 10px;
+  }
+}

@@ -1,0 +1,26 @@
+.live-class-join-modal {
+  max-width: 550px;
+}
+
+.live-class-join-modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.class-join-info>div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.class-join-info {
+  width: 100%;
+}
+
+.class-join-info>div>span:first-of-type {
+  text-transform: uppercase;
+  FONT-WEIGHT: 600;
+}

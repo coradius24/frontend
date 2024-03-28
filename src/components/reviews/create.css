@@ -1,0 +1,137 @@
+section.review-create.rainbow-banner .content {
+  background: #fff;
+  filter: blur(0px);
+  border: 1px solid #EAF0F5;
+  border-radius: 20px;
+  margin: 60px 0;
+}
+
+section.review-create.rainbow-banner .content h1 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #EAF0F5;
+}
+
+.review-create-card form {
+  margin-top: 30px;
+}
+
+.review-create-card {
+  padding: 20px;
+}
+
+.review.upload-aria {}
+
+.review.upload-aria label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  cursor: pointer;
+}
+
+.review-form-group.flex {
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.review-create-card .review-form-group.flex.second,
+.review-create-card .review-form-group.flex:last-of-type {
+  margin-top: 30px;
+}
+
+#comment {
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #EAF0F5;
+}
+
+.review-form-group.flex .star-icons {
+  padding-top: 20px;
+  gap: 3px;
+}
+
+.review-star-label {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.review-form-group.flex>div {
+  width: calc(50% - 15px);
+}
+
+.review.upload-aria {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+
+.review.upload-aria label img {
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+label.video-icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-create-card .review.upload-aria {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 990px) {
+  .review-create-card {
+    padding: 30px;
+  }
+
+  .review-create-card form {
+    margin-top: 40px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .review-form-group.flex .upload-aria {
+    margin-top: 0;
+  }
+
+  .review-form-group.flex {
+    flex-direction: column;
+  }
+
+  .review-form-group.flex>div {
+    width: 100%;
+  }
+
+  .review-create-card .review-form-group.flex:last-of-type div:first-of-type {
+    display: none;
+  }
+
+  .review-create-card .review-form-group.flex:last-of-type {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .review-form-group.flex {
+    flex-direction: column;
+  }
+
+  .review-form-group.flex>div {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .modal-video-review {
+    max-width: 600px;
+  }
+}

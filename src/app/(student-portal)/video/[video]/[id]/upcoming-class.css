@@ -1,0 +1,40 @@
+.upcoming-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  border: 1px solid #cbd0d7;
+  border-style: dashed;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.upcoming-class p {
+  margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .upcoming-class .live-class-timer-item>span:first-of-type {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .upcoming-class {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .upcoming-class {
+    width: 50%;
+    gap: 20px;
+  }
+
+  .upcoming-class .live-class-timer-item {
+    width: 50px;
+  }
+}

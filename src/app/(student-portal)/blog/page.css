@@ -1,0 +1,38 @@
+.blog-header .content {
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.section-blog-content.container .container {
+  padding: 0;
+}
+
+.section-blog.blog-container {
+  margin-top: 60px;
+}
+
+.blog-page-banner, .blog-page-banner+div {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 990px) {
+  .blog-header .content {
+    width: 70%;
+    padding: 70px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .blog-header .content {
+    width: 50%;
+    padding: 90px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .blog-page-banner, .blog-page-banner+div {
+    margin-top: 100px;
+  }
+}

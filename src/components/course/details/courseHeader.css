@@ -1,0 +1,139 @@
+section.course-header-area {
+  background: linear-gradient(180deg, rgba(243, 253, 243, 0.00) 0%, #F3FDF3 100%);
+  padding: 70px 0 40px;
+}
+
+.course-header-wrap>span {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.course-header-area.duplicated {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  background-color: rgba(41, 48, 59, .8);
+  padding: 10px 0;
+}
+
+.course-header-area.duplicated .title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.course-header-area.duplicated .subtitle,
+.course-header-area.duplicated .course-badge,
+.course-header-area.duplicated .created-row {
+  display: none;
+}
+
+.course-header-wrap .highlight-title {
+  margin-bottom: 15px;
+}
+
+.course-header-wrap .title {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.course-header-wrap .subtitle {
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+.course-header-wrap .rating-row {
+  font-size: 13px;
+}
+
+.course-header-wrap .rating-row {
+  font-size: 13px;
+}
+
+.course-header-wrap .rating-row svg.filled {
+  color: #19891c;
+  margin-right: 3px;
+  margin-top: -2.5px;
+}
+
+.course-header-wrap .average-rating {
+  margin: 0 20px 0 6px;
+}
+
+.course-header-wrap>div>span a:hover {
+  color: #19891c !important;
+}
+
+.course-header-wrap .rating p {
+  margin-bottom: 0;
+}
+
+.course-header-wrap .rating svg {
+  font-size: 14px;
+  color: #19891c;
+}
+
+.course-header-wrap a {
+  color: #fff;
+}
+
+.course-header-wrap .course-badge {
+  font-size: 9px !important;
+}
+
+.course-header-wrap .comment svg {
+  margin-right: 7px;
+  font-size: 13px;
+}
+
+section.course-header-area .enrolled-num>.icon {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background: #DBEEDD;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+section.course-header-area .enrolled-num>.icon svg {
+  color: var(--color-primary);
+}
+
+@media screen and (min-width: 990px) {
+  section.course-header-area {
+    padding: 100px 0 70px;
+  }
+
+  .course-header-wrap {
+    width: 60%;
+    padding-right: 25px;
+  }
+
+  .course-header-wrap .title {
+    font-size: 40px;
+  }
+
+  .course-header-wrap .subtitle {
+    font-size: 18px;
+  }
+
+  .course-header-wrap .rating-row {
+    font-size: 16px;
+  }
+
+  .course-header-wrap .rating-row span .fas {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .course-header-wrap .title {
+    font-size: 48px;
+  }
+}

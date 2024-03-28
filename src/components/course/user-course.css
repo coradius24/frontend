@@ -1,0 +1,77 @@
+.user-dashboard-area .tabs {
+  border-radius: 10000px;
+  border: 1px solid #EAF0F5;
+  background: #F7F9FC;
+  padding: 6px;
+}
+
+.user-dashboard-area .tab {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.user-dashboard-area .tab.btn:not(.active) {
+  background: transparent;
+  color: var(--color-secondary);
+}
+
+.user-dashboard-area .purchase-course .tab.active:hover {
+  color: #fff;
+  background: linear-gradient(90deg, #017A07 -6.63%, #4FB254 100%);
+}
+
+.user-dashboard-area .purchase-course .content {
+  display: none;
+}
+
+.user-dashboard-area .purchase-course .content.active {
+  display: flex;
+}
+
+.user-dashboard-area .flex.content.active {
+  gap: 30px;
+  flex-direction: column;
+}
+
+.user-dashboard-area .flex.content.active .highlight-title {
+  font-size: 12px;
+}
+
+.user-dashboard-area .flex.content.active .courses-card-text {
+  padding: 15px;
+}
+
+.user-dashboard-area .flex.content.active .courses-card-title h4 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.user-dashboard-area .flex.content.active .courses-card-header {
+  padding-bottom: 20px;
+}
+
+.user-dashboard-area .flex.content.active .card-btn.full-width {
+  font-size: 13px;
+  padding: 10px 0;
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .user-dashboard-area .flex.content.active {
+    flex-direction: row;
+  }
+
+  .user-dashboard-area .flex.content.active .courses-card {
+    flex: 0 0 calc(50% - 15px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .user-dashboard-area .flex.content.active .courses-card {
+    flex: 0 0 calc(33.33% - 20px);
+  }
+}

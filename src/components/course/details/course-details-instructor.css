@@ -1,0 +1,112 @@
+.course-instructors {
+  margin-bottom: 20px;
+}
+
+.about-instructor-box {
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-instructor-box>div {
+  width: 100%;
+}
+
+.course-details-instructor {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 0.95px solid #EAF0F5;
+  background: #FFF;
+  padding-bottom: 20px;
+}
+
+.course-details-instructor .top-aria .avatar-bg {
+  height: 100px;
+  width: 100%;
+  background: var(--color-primary);
+  border-radius: 10px 10px 0px 0px;
+  border: 0.95px solid #EAF0F5;
+}
+
+.course-details-instructor .top-aria {
+  position: relative;
+}
+
+.course-details-instructor .avatar {
+  height: 126px;
+  width: 126px;
+  border-radius: 50%;
+  position: absolute;
+  top: 33px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.course-details-instructor .avatar img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 119px;
+  border: 3.799px solid var(--p-5, #FFF);
+  border-radius: 50%;
+}
+
+.course-details-instructor .profile {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.course-details-instructor .profile p:last-of-type {
+  margin: 0;
+}
+
+.course-details-instructor .socials.flex {
+  gap: 8px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.course-details-instructor .profile .socials .item {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #EAEFF3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course-details-instructor .profile .socials .item a {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #3F403F;
+  transition: color .3s;
+}
+
+.course-details-instructor .profile .socials .item a:hover {
+  background: var(--color-primary);
+  border-radius: 50%;
+  color: #fff;
+}
+
+.course-details-instructor>.center {
+  padding: 15px 20px 20px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .course-details-instructor {
+    max-width: 226px;
+  }
+
+  .about-instructor-box {
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: nowrap;
+  }
+
+  .about-instructor-box>div {
+    flex: 1;
+  }
+}

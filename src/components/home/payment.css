@@ -1,0 +1,108 @@
+.payment-options {
+  margin-top: 100px;
+}
+
+.payment-options .rainbow-banner {
+  background: linear-gradient(180deg, #F3FDF3 100%, rgba(255, 255, 255, 0.00) 25.72%);
+  margin-bottom: -150px;
+  padding-bottom: 230px;
+  position: relative;
+}
+
+.payment-options .blur-circle-yellow {
+  bottom: 5%;
+  left: 0;
+  width: 276px;
+  height: 276px;
+}
+
+.payment-options .blur-circle-sky-light {
+  width: 300px;
+  height: 300px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.payment-options .blur-circle-purple {
+  width: 356px;
+  height: 356px;
+  bottom: 5%;
+  right: -150px;
+  opacity: 0.3;
+}
+
+.footer-top-content {
+  gap: 30px;
+  padding-top: 90px;
+}
+
+.footer-top-content-left,
+.footer-top-content-right {
+  width: calc(50% - 15px);
+  border-radius: 20px;
+  background: #FDFDFD;
+  padding: 30px;
+  position: relative;
+}
+
+.footer-top-content-left img {
+  margin-top: 20px;
+}
+
+.footer-top-content-right {
+  background-image: url('/cpa-with-graphs-reports-paper.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.footer-top-content-right p {
+  max-width: 372px;
+  font-weight: 500;
+}
+
+.footer-top-content-right a.btn {
+  margin-top: 28px;
+}
+
+@media screen and (max-width: 990px) {
+  .payment-options .blur-circle-yellow {
+    width: 100px;
+    height: 100px;
+  }
+
+  .payment-options .blur-circle-sky-light {
+    width: 150px;
+    height: 150px;
+  }
+
+  .payment-options .blur-circle-purple {
+    width: 200px;
+    height: 200px;
+  }
+
+  .footer-top-content {
+    padding-top: 40px;
+    gap: 15px;
+  }
+
+  .footer-top-content-left,
+  .footer-top-content-right {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .payment-options .rainbow-banner {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .footer-top-content-left,
+  .footer-top-content-right {
+    width: calc(50% - 15px);
+  }
+}

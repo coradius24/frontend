@@ -1,0 +1,78 @@
+.section-mentor {
+  margin: 100px 0;
+}
+
+.mentor-image-cards {
+  position: relative;
+}
+
+.section-mentor .section-header-and-button {
+  margin-bottom: -100px;
+}
+
+.instructor-slider {
+  padding-top: 140px !important;
+  position: relative;
+}
+
+.mentor-content .slider-button {
+  top: 55px;
+}
+
+.mentor-content .slider-button-left.slider-button {
+  left: initial;
+  right: 37px;
+}
+
+.skeleton-mentor-image-cards{
+  display: grid;
+  gap: 25px;
+  padding-top: 150px;
+}
+
+.skeleton-mentor-image-cards .swiper-slide{
+  margin-right: 30px;
+}
+.skeleton-courses-grid > div:not(:first-child) {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .instructor-slider .swiper-slide {
+    max-width: 50%;
+  }
+  .skeleton-mentor-image-cards{
+    grid-template-columns: 1fr 1fr;
+  }
+  .skeleton-courses-grid > div:not(:first-child) {
+    display: block;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  .mentor-content .slider-button {
+    top: 50px;
+    
+  }
+
+  .instructor-slider .swiper-slide {
+    max-width: 33%;
+  }
+  .skeleton-mentor-image-cards{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.instructor-slider .slider-button-right {
+  right: 22px;
+}
+
+@media screen and (min-width: 1200px) {
+  .instructor-slider .swiper-slide {
+    max-width: 24%;
+  }
+  .skeleton-mentor-image-cards{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

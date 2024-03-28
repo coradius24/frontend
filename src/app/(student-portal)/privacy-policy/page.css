@@ -1,0 +1,19 @@
+section.privacy-policy.rainbow-banner {
+  padding: 60px 0;
+}
+
+section.privacy-policy.rainbow-banner {
+  margin-bottom: 50px;
+}
+
+section.privacy-policy.container {
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 990px) {
+  section.privacy-policy.rainbow-banner .content.center p {
+    max-width: 778px;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+}

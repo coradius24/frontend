@@ -1,0 +1,99 @@
+.feature-course_item.flex .image-overlay .overlay-profile {
+  position: absolute;
+  display: flex;
+}
+
+.feature-course_item.flex .image-overlay .overlay-profile-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.feature-course_item.flex .image-overlay .overlay-profile-position {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.feature-course_item.flex .image-overlay .overlay-profile-position {
+  margin: 0 14px;
+  color: var(--color-secondary);
+}
+
+.feature-course_item.flex .section-courses-content .image-overlay .overlay-profile img {
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #fff;
+  background: rgb(255 255 255);
+
+}
+
+.feature-course_item.flex .image-overlay .overlay-profile img {
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #fff;
+}
+
+
+@media screen and (max-width: 480px) {
+  .courses-card.feature-course_item.flex .courses-card-text .courses-card-header {
+    padding-bottom: 15px;
+  }
+
+  .courses-card.feature-course_item.flex .courses-card-text {
+    padding: 15px;
+    flex: 1;
+  }
+
+  .courses-card.feature-course_item.flex .courses-card-title h4 {
+    font-size: 18px;
+  }
+
+  .courses-card.feature-course_item.flex .card-btn {
+    height: 45px;
+    line-height: 1;
+  }
+
+  .courses-card.feature-course_item.flex .card-price {
+    font-size: 18px;
+  }
+
+  .courses-card.feature-course_item.flex .courses-card-price {
+    margin-top: 20px;
+  }
+
+  .courses-card.feature-course_item.flex .card-info-time {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .courses-card.feature-course_item.flex {
+    flex-direction: column;
+  }
+
+  .courses-card .courses-card-image>img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .courses-card.feature-course_item.flex>div {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .courses-card.feature-course_item.flex>div:first-of-type {
+    width: 60%;
+  }
+
+  .courses-card.feature-course_item.flex>div:last-of-type {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .courses-card.feature-course_item.flex>div {
+    flex: 1;
+  }
+}

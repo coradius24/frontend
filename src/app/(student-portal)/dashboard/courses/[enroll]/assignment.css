@@ -1,0 +1,157 @@
+.assignment-content .ReactModal__Content {
+  padding: 30px !important;
+}
+
+.assignment-container .accordion__item {
+  border-radius: 10px;
+  border: 1px solid #EAF0F5;
+  background: #FFF;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+
+.assignment-container .assignment-header .img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #F7F9FC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form-group-submission-note label {
+  display: block;
+}
+
+textarea#submissionNote {
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px 10px;
+  border-color: #eaf0f5;
+  max-width: 600px;
+}
+
+.assignment-title {
+  flex: 1;
+}
+
+.assignment-header.flex {
+  gap: 15px;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.assignment-title p {
+  margin: 0;
+  padding: 0 15px 0 0;
+  line-height: 1.5;
+}
+
+.accordion__button[aria-expanded="true"]::before,
+.assignment-container .accordion__button[aria-expanded="false"]::before {
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transform: translate(-50%, -50%);
+}
+
+.assignment-details {
+  padding: 15px 15px 65px 15px;
+}
+
+.assignment-details.submitted {
+  padding-bottom: 0;
+}
+
+.assignment-content {
+  position: relative;
+}
+
+.assignment-content .submit-button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.submit-button button.btn.btn-info {
+  max-width: max-content;
+  padding: 9px 18px;
+}
+
+.assignment-submit-icon svg {
+  margin: 0 auto;
+}
+
+.assignment-submit-content {
+  position: absolute;
+  right: 0;
+}
+
+.assignment-modal {
+  padding-bottom: 80px !important;
+}
+
+.assignment-modal label,
+.drop-zone p {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.assignment-modal label {
+  cursor: pointer;
+}
+
+
+.assignment-modal label span {
+  color: #3D7BD8;
+}
+
+.modal-content {
+  position: relative;
+}
+
+.assignment-submit-content .btn {
+  padding: 15px 30px;
+}
+
+.assignment-modal .uploaded-files {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.assignment-modal .file-item.flex {
+  gap: 15px;
+  align-items: center;
+  margin: 1px 0;
+}
+
+.assignment-modal .file-item.flex span:last-of-type {
+  cursor: pointer;
+}
+
+.assignment-submitted-check.flex.align-center p {
+  margin: 0;
+}
+
+.assignment-submitted-check.flex.align-center {
+  gap: 10px;
+}
+
+.assignment-submitted-feedback.flex.align-center p {
+  margin: 0;
+}
+
+.assignment-submitted-feedback.flex.align-center {
+  gap: 10px;
+}
+
+button.btn.resubmit.btn-info {
+  max-width: max-content;
+  padding: 12px 20px;
+}

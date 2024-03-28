@@ -1,0 +1,122 @@
+.end-date label[data-shrink=true],
+.start-date label[data-shrink=true] {
+  display: none;
+}
+
+.start-date fieldset,
+.end-date fieldset {
+  display: none;
+}
+.page-title{
+  font-size: 22px;
+  margin-bottom: 25px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.859)
+}
+.header-title{
+  font-size: 18px !important;
+  font-weight: 500 !important;
+
+}
+
+.start-date,
+.end-date {
+  border-radius: 93.255px;
+  border: 1.5px solid #EAF0F5;
+  background: #F7F9FC;
+}
+
+.start-date button,
+.end-date button {
+  margin-left: -10px !important;
+  margin-right: -10px !important;
+}
+
+.start-date svg,
+.end-date svg {
+  width: 16px;
+  height: 16px;
+}
+
+.end-date label,
+.start-date label,
+.end-date input,
+.start-date input {
+  color: #3F403F;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.date-container.flex {
+  gap: 10px;
+}
+
+.earning-report .search-aria input {
+  border-radius: 30px;
+  padding: 10px 18px;
+  max-width: 185px;
+  background: #F7F9FC !important;
+  border: 2px solid #F7F9FC;
+}
+
+.search-aria {
+  position: relative;
+  display: flex;
+  max-width: 185px;
+}
+
+.earning-report span.search-button {
+  background: #19891c;
+  padding: 10px 15px;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  right: 0px;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.earning-report .header.flex.align-center>div.flex {
+  background: unset;
+}
+
+
+.earning-report tbody th {
+  border-color: #EAF0F5;
+}
+
+.earning-report table tr,
+.earning-report table tr td,
+.earning-report table tr th {
+  font-family: Manrope;
+}
+
+.earning-report thead tr th {
+  background: #F7F9FC;
+  color: var(--color-secondary);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.earning-report thead tr th:first-of-type {
+  border-radius: 9px 0 0px 0px;
+}
+
+.earning-report thead tr th:last-of-type {
+  border-radius: 0 9px 0 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .earning-report .header.flex.align-center>div {
+    max-width: 60%;
+  }
+}

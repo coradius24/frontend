@@ -1,0 +1,83 @@
+section.course-payment.rainbow-banner {
+  background: unset;
+}
+
+section.course-payment {
+  height: 720px;
+  z-index: -1;
+}
+
+section.course-payment-content {
+  margin-top: -620px;
+  margin-bottom: 20px;
+}
+
+section.course-payment-content .bg {
+  border-radius: 20px;
+  border: 1px solid #EAF0F5;
+  background: #FFF;
+  box-shadow: 20px 20px 80px 0px rgba(68, 111, 160, 0.10);
+  max-width: 98%;
+  z-index: 1;
+}
+
+.course-payment-content .content {
+  padding: 100px 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.course-payment-content .content .icon {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.course-payment-content .content .button-group {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.course-payment-content .content .button-group .btn {
+  min-width: 135px;
+  background: transparent;
+  padding: 18px 35px;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+.course-payment-content .content .button-group .btn:hover {
+  background: var(--color-primary);
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.course-payment-content .content .button-group .btn:hover svg {
+  color: #fff;
+}
+
+.course-payment-content .content .phone {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 480px) {
+  .course-payment-content .content .button-group .btn {
+    min-width: 174px;
+  }
+
+  section.course-payment-content .bg {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  section.course-payment-content {
+    margin-bottom: 100px;
+  }
+}

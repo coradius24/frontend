@@ -1,0 +1,100 @@
+.enrollment__timer-wrapper.flex {
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.enrollment__timer-wrapper.flex>* {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #EAF0F5;
+  background: #FFF;
+  padding: 15px;
+}
+
+.class-schedule.flex {
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.enrollment__timer.flex {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.live-class-timer.flex .live-class-timer-item>span:first-of-type {
+  font-size: 28px;
+}
+
+.live-class-timer.flex .live-class-timer-item span:last-of-type {
+  font-size: 14px;
+}
+
+.enrollment__timer.flex .live-class-timer.flex {
+  margin: 0;
+}
+
+.class-schedule.flex>* .flex.align-center {
+  gap: 4px;
+}
+
+.class-schedule.flex>div>span {
+  font-weight: 600;
+}
+
+.class-schedule.flex .dotted {
+  width: 1px;
+  border: 1px solid #EAF0F5;
+  border-style: dashed;
+  align-self: normal;
+}
+
+
+.enrollment__timer .live-class-timer-item {
+  width: 55px;
+}
+
+@media screen and (max-width: 340px) {
+  .class-schedule.flex .dotted {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .enrollment__timer-wrapper.flex {
+    flex-direction: row;
+  }
+
+  .enrollment__timer-wrapper.flex>* {
+    width: calc(50% - 10px);
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 990px) and (max-width:1200px) {
+  .class-schedule.flex .dotted {
+    display: none;
+  }
+
+  .enrollment__timer .live-class-timer-item {
+    width: 45px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .enrollment__timer.flex {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .enrollment__timer.flex>span {
+    width: 18%;
+    display: block;
+  }
+
+  .enrollment__timer.flex>div {
+    width: calc(100% - 28%);
+  }
+}

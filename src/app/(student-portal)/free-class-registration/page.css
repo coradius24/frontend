@@ -1,0 +1,19 @@
+section.free-class.rainbow-banner {
+  background: linear-gradient(180deg, rgba(243, 253, 243, 0.00) 0%, #F3FDF3 100%);
+}
+
+section.free-class.rainbow-banner .content {
+  padding: 60px 0;
+}
+
+section.free-class.rainbow-banner h1 {
+  color: var(--color-secondary);
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1200px) {
+  section.free-class.rainbow-banner .content {
+    padding: 100px 0;
+  }
+}

@@ -1,0 +1,160 @@
+.course-content-area {
+  padding: 15px 0;
+  margin: 30px 0 100px 0;
+}
+
+.course-content-area h2.section-title {
+  font-size: 22px;
+}
+
+.view-more-parent {
+  position: relative;
+  overflow: hidden;
+}
+
+.view-more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .95), #fff);
+  display: block;
+  padding: 30px 3px 3px 3px;
+  color: #007791;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.view-less {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 100%;
+  display: block;
+  padding: 3px 3px 3px 3px;
+  color: #007791;
+  cursor: pointer;
+}
+
+.view-more-parent.expanded {
+  max-height: none;
+  overflow: visible;
+}
+
+.view-more-parent.has-hide {
+  padding-bottom: 30px;
+}
+
+.description-box {
+  max-height: 260px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.description-box ul {
+  list-style: disc;
+}
+
+.description-box .description-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+
+.description-box .audience {
+  margin-top: 20px;
+}
+
+.description-box .audience .audience-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.description-box .audience ul {
+  margin-bottom: 0;
+}
+
+.content-box {
+  border-radius: 10px;
+  border: 1px solid #EAF0F5;
+  background: #FFF;
+  padding: 20px;
+}
+
+.content-box .what-you-get-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.content-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content-box ul li {
+  display: flex;
+  margin-bottom: 10px;
+  padding-left: 26px;
+  font-size: 15px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.content-box ul li>div {
+  font-weight: 900;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+
+.content-box ul li>div svg {
+  color: var(--color-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .content-box ul li:not(.single) {
+    width: 45%;
+  }
+}
+
+.requirements-box {
+  margin-top: 40px;
+}
+
+.requirements-box .requirements-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.requirements-box .requirements__list {
+  list-style: disc;
+  margin-left: 10px;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+.requirements-box .requirements__list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 990px) {
+  .content-box ul li {
+    font-size: 16px;
+  }
+
+  .course-content-area h2.section-title {
+    font-size: 26px;
+  }
+
+}
