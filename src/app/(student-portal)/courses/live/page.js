@@ -96,7 +96,7 @@ const Page = async ({ searchParams }) => {
       <section className="course-container">
         <MainCourses
           contentType="live"
-          courseResult={coursesData}
+          courseResult={JSON.stringify(coursesData)}
           categories={categories}
         />
       </section>
