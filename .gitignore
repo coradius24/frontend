@@ -40,3 +40,4 @@ pnpm-lock.yaml
 workbox-*
 .vscode
 sw.js.map
+.env
