@@ -1,3 +1,4 @@
+// "use client"
 import Blog from "@/components/blog/Blog";
 import CourseGallery from "@/components/course/LiveCourses";
 import CarrierGoal from "@/components/home/CarrierGoal";
@@ -22,8 +23,10 @@ const Home = () => {
       <FeatureReview />
       <Instructor />
       <Event />
+      {/*
       <Blog />
-      <Payment />
+    */}
+    <Payment /> 
     </>
   );
 };
