@@ -1,4 +1,4 @@
-export const baseURL = "http://165.232.184.71:8000/";
+export const baseURL = "http://165.232.184.71/";
 // export const baseURL = "https://api.upspotacademy.com";
 
 const commonConfig = {
